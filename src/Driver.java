@@ -1,9 +1,9 @@
 public class Driver {
     int age;
-    String name;
+    String imya;
 
-    public Driver(int age, String name) {
+    public Driver(int age, String imya) {
         this.age = age;
-        this.name = name;
+        this.imya = imya;
     }
 }
