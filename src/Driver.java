@@ -1,9 +1,11 @@
 public class Driver {
+    String name;
     int age;
-    String imya;
+    int idCard;
 
-    public Driver(int age, String imya) {
+    public Driver(String name, int age, int idCard) {
+        this.name = name;
         this.age = age;
-        this.imya = imya;
+        this.idCard = idCard;
     }
 }
