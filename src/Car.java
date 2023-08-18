@@ -1,8 +1,8 @@
 public class Car {
     int maxSpeed;
-    String model;
+    CarModels model;
 
-    public Car(int maxSpeed, String model) {
+    public Car(int maxSpeed, CarModels model) {
         this.maxSpeed = maxSpeed;
         this.model = model;
     }
